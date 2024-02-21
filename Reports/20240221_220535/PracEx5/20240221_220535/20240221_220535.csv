@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PracEx5,Chrome 121.0.0.0,,,21-02-2024 22:05:42,21-02-2024 22:06:09,27.050s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 121.0.0.0,,,21-02-2024 22:05:42,21-02-2024 22:05:49,6.660s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,21-02-2024 22:05:42,21-02-2024 22:05:44,1.727s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 121.0.0.0,,,21-02-2024 22:05:44,21-02-2024 22:05:45,0.677s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 121.0.0.0,,,21-02-2024 22:05:45,21-02-2024 22:05:47,2.195s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 121.0.0.0,,,21-02-2024 22:05:47,21-02-2024 22:05:48,0.694s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 121.0.0.0,,,21-02-2024 22:05:48,21-02-2024 22:05:48,0.389s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,21-02-2024 22:05:48,21-02-2024 22:05:49,0.627s,PASSED
+,,,,,,,
+Test Cases/Melihat detail Produk,Chrome 121.0.0.0,,,21-02-2024 22:05:49,21-02-2024 22:05:53,4.728s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,21-02-2024 22:05:49,21-02-2024 22:05:49,0.646s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 121.0.0.0,,,21-02-2024 22:05:49,21-02-2024 22:05:50,0.431s,PASSED
+exe.Login.login(),Chrome 121.0.0.0,,,21-02-2024 22:05:50,21-02-2024 22:05:53,3.102s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/div_Sauce Labs Backpack""))",Chrome 121.0.0.0,,,21-02-2024 22:05:53,21-02-2024 22:05:53,0.461s,PASSED
+,,,,,,,
+Test Cases/Melihat Keranjang,Chrome 121.0.0.0,,,21-02-2024 22:05:53,21-02-2024 22:05:58,4.705s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,21-02-2024 22:05:53,21-02-2024 22:05:54,0.775s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 121.0.0.0,,,21-02-2024 22:05:54,21-02-2024 22:05:55,0.417s,PASSED
+exe.Login.login(),Chrome 121.0.0.0,,,21-02-2024 22:05:55,21-02-2024 22:05:58,2.993s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/a_Swag Labs_shopping_cart_link""))",Chrome 121.0.0.0,,,21-02-2024 22:05:58,21-02-2024 22:05:58,0.443s,PASSED
+,,,,,,,
+Test Cases/Menambahkan Barang,Chrome 121.0.0.0,,,21-02-2024 22:05:58,21-02-2024 22:06:03,4.845s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,21-02-2024 22:05:58,21-02-2024 22:05:59,0.950s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 121.0.0.0,,,21-02-2024 22:05:59,21-02-2024 22:06:00,0.403s,PASSED
+exe.Login.login(),Chrome 121.0.0.0,,,21-02-2024 22:06:00,21-02-2024 22:06:03,2.981s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Add to cart""))",Chrome 121.0.0.0,,,21-02-2024 22:06:03,21-02-2024 22:06:03,0.440s,PASSED
+,,,,,,,
+Test Cases/Remove Barang dari Cart,Chrome 121.0.0.0,,,21-02-2024 22:06:03,21-02-2024 22:06:09,5.864s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,21-02-2024 22:06:03,21-02-2024 22:06:04,0.883s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 121.0.0.0,,,21-02-2024 22:06:04,21-02-2024 22:06:04,0.401s,PASSED
+exe.Login.login(),Chrome 121.0.0.0,,,21-02-2024 22:06:04,21-02-2024 22:06:07,2.993s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Add to cart""))",Chrome 121.0.0.0,,,21-02-2024 22:06:07,21-02-2024 22:06:08,0.437s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/a_Swag Labs_shopping_cart_link""))",Chrome 121.0.0.0,,,21-02-2024 22:06:08,21-02-2024 22:06:08,0.552s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Remove""))",Chrome 121.0.0.0,,,21-02-2024 22:06:08,21-02-2024 22:06:09,0.527s,PASSED
